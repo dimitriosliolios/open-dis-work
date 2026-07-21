@@ -1,0 +1,10 @@
+----- GIT UPDATES/PUSH -----
+
+cd C:\Users\jimmy\open-dis-python\open-dis-work
+git add .
+git commit -m "Updated DIS files from code editor"
+git push
+
+
+----- GIT UPDATES/PULL -----
+git pull
