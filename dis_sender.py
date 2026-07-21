@@ -26,7 +26,7 @@ def send():
     pdu.entityID.entityNumber = 42
     pdu.entityID.simulationAddress.site = 17
     pdu.entityID.simulationAddress.application = 23
-    pdu.marking.setString('Dimitrios Liolios')
+    pdu.marking.setString('Dimitrios')
 
      # Entity in Monterey, CA, USA facing North, no roll or pitch
     montereyLocation = gps.llarpy2ecef(deg2rad(36.6),   # longitude (radians)
